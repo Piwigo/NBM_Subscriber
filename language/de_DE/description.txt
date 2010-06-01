@@ -1,0 +1,1 @@
+Ermöglicht registrierte Besucher ihre eigenen Abonnement für die Benachrichtigung per Mail zu verwalten (NBM)

@@ -1,0 +1,1 @@
+Consente di gestire i visitatori registrati il loro abbonamento proprio per la notifica a mezzo posta (NBM)

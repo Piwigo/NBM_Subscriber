@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: NBM_Subscribe
-Version: 1.0.a
-Description: Permettre aux visiteurs inscrits de s'inscrire eux-même à la notification par mail (NBM) - To allow the registered users to subscribe themself to the notification by mail (NBM)
-Plugin URI: http://fr.piwigo.org/ext/extension_view.php?eid=
+Plugin Name: NBM Subscriber
+Version: 1.0.0
+Description: Permet aux visiteurs inscrits de gérer eux-même leur abonnement à la notification par mail (NBM) - Allows registered visitors to manage their own subscription to the notification by mail (NBM)
+Plugin URI:
 Author: Eric
 Author URI: http://www.infernoweb.net
 */
@@ -39,49 +39,25 @@ function NBMS_admin_menu($menu)
 }
 
 
-/* Adding NBMS in profile page */
-//add_event_handler('loc_begin_profile', 'NBMS_Profile');
+/* Saving from profile with added data */
 add_event_handler('save_profile_from_post', 'NBMS_Save_Profile');
 
 function NBMS_Save_Profile()
 {
-  global $conf;
+  global $conf, $user;
   
   if (!empty($_POST['NBM_Subscription']) && in_array( $_POST['NBM_Subscription'], array('true', 'false')))
-{
-   $fo=fopen (NBMS_PATH.'log.txt','a') ;
-   fwrite($fo,"======================\n") ;
-   fwrite($fo,'le ' . date('D, d M Y H:i:s') . "\r\n");
-   fwrite($fo,$to . "\n" . $_POST['NBM_Subscription'] . "\r\n") ;
-   fclose($fo) ;
-
-  $query = '
+  {
+    $query = '
 UPDATE '.USER_MAIL_NOTIFICATION_TABLE.'
   SET enabled = \''.$_POST['NBM_Subscription'].'\'
   WHERE user_id = \''.$user['id'].'\';';
 
-  pwg_query($query); 
-}
-  /*if (isset($_POST['NBM_Subscription']) and $_POST['NBM_Subscription'] == 'true')
-  {
-  $query = '
-UPDATE '.USER_MAIL_NOTIFICATION_TABLE.'
-  SET enabled = \'true\'
-  WHERE user_id = \''.$user['id'].'\';';
-
-  pwg_query($query);
+    pwg_query($query); 
   }
-  elseif (isset($_POST['NBM_Subscription']) and $_POST['NBM_Subscription'] == 'false')
-  {
-    $query = '
-UPDATE '.USER_MAIL_NOTIFICATION_TABLE.'
-  SET enabled = \'false\'
-  WHERE user_id = \''.$user['id'].'\';';
-
-    pwg_query($query);
-  }*/
 }
 
+/* Adding NBMS in profile page */
 add_event_handler('load_profile_in_template', 'NBMS_Load_Profile');
 
 function NBMS_Load_Profile()
@@ -111,6 +87,7 @@ function NBMS_Load_Profile()
   $template->set_prefilter('profile_content', 'NBMS_prefilter');
 }
 
+/* Original template modification */
 function NBMS_prefilter($content, &$smarty)
 {
   global $template;
@@ -121,11 +98,10 @@ function NBMS_prefilter($content, &$smarty)
       
   $addon = '{if $ALLOW_USER_CUSTOMIZATION}
   <fieldset>
-    <legend>{\'NBMS_Title\'|@translate}</legend>
+    <legend>{\'NBMS_Section\'|@translate}</legend>
       <ul>
         <li>
-          <span class="property">{\'NBMS\'|@translate}</span>
-          <span class="property">{$TEST}</span>
+          <span class="property">{\'NBMS_Text\'|@translate}</span>
           {html_radios name=\'NBM_Subscription\' options=$radio_options selected=$NBMS}
         </li>
       </ul>
@@ -136,5 +112,4 @@ function NBMS_prefilter($content, &$smarty)
 
   return str_replace($search, $replacement, $content);;
 }
-
 ?>

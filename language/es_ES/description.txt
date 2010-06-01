@@ -1,0 +1,1 @@
+Permite visitantes registrados para gestionar su propia suscripción a la notificación por correo (NBM)
