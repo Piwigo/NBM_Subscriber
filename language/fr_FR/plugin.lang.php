@@ -15,5 +15,5 @@ L\'idée de ce plugin est de proposer à tout visiteur <b><u>inscrit</u></b> de 
 <br><br>
 PS: Ce plugin ne prend pas en charge l\'information aux visiteurs sur la disponibilité de cette nouvelle option. C\'est à vous, administrateur / webmestre, de mettre en oeuvre un moyen d\'information annexe. Pour cela, le plugin PWG_Stuffs est tout indiqué ;-)';
 $lang['NBMS_Support'] = 'Le support sur ce plugin se fait exclusivement sur ce fil du forum Piwigo:<br>
-<a href="http://fr.piwigo.org/forum/viewtopic.php?id=" onclick="window.open(this.href);return false;">Forum français - http://fr.piwigo.org/forum/viewtopic.php?id=</a>';
+<a href="http://fr.piwigo.org/forum/viewtopic.php?id=17929" onclick="window.open(this.href);return false;">Forum français - http://fr.piwigo.org/forum/viewtopic.php?id=17929</a>';
 ?>

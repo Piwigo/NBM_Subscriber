@@ -15,5 +15,5 @@ The idea of this plugin is to offer every <b><u>registered</u></b> visitor can s
 <br><br>
 PS: This plugin does not support the visitor information on the availability of this new option. You, Administrator / Webmaster, have to implement an information medium attached. For this, the plugin PWG_Stuffs is perfect ;-)';
 /* TODO */$lang['NBMS_Support'] = 'The support on this plugin is only on this Piwigo\'s forum thread:<br>
-<a href="http://piwigo.org/forum/viewtopic.php?id=" onclick="window.open(this.href);return false;">English forum - http://piwigo.org/forum/viewtopic.php?id=</a>';
+<a href="http://piwigo.org/forum/viewtopic.php?id=16020" onclick="window.open(this.href);return false;">English forum - http://piwigo.org/forum/viewtopic.php?id=16020</a>';
 ?>
