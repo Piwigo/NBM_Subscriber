@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: NBM Subscriber
-Version: 1.0.0
+Version: 1.0.1
 Description: Permet aux visiteurs inscrits de gérer eux-même leur abonnement à la notification par mail (NBM) - Allows registered visitors to manage their own subscription to the notification by mail (NBM)
 Plugin URI: http://fr.piwigo.org/ext/extension_view.php?eid=397
 Author: Eric
@@ -90,7 +90,7 @@ function NBMS_Load_Profile()
 /* Original template modification */
 function NBMS_prefilter($content, &$smarty)
 {
-  global $template;
+  global $template, $lang;
   
   load_language('plugin.lang', NBMS_PATH);
   
@@ -110,6 +110,6 @@ function NBMS_prefilter($content, &$smarty)
   
   $replacement = $addon.$search;
 
-  return str_replace($search, $replacement, $content);;
+  return str_replace($search, $replacement, $content);
 }
 ?>
