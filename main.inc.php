@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: NBM Subscriber
-Version: 1.0.1
+Version: 1.0.2
 Description: Permet aux visiteurs inscrits de gérer eux-même leur abonnement à la notification par mail (NBM) - Allows registered visitors to manage their own subscription to the notification by mail (NBM)
 Plugin URI: http://fr.piwigo.org/ext/extension_view.php?eid=397
 Author: Eric
@@ -46,7 +46,42 @@ function NBMS_Save_Profile()
 {
   global $conf, $user;
   
-  if (!empty($_POST['NBM_Subscription']) && in_array( $_POST['NBM_Subscription'], array('true', 'false')))
+  include_once(PHPWG_ROOT_PATH.'admin/include/functions_notification_by_mail.inc.php');
+  
+  $query = '
+SELECT *
+FROM '.USER_MAIL_NOTIFICATION_TABLE.'
+WHERE user_id = \''.$user['id'].'\'
+';
+  
+  $count = pwg_db_num_rows(pwg_query($query));
+  
+  if ($count == 0)
+  {
+    $inserts = array();
+    $check_key_list = array();
+    
+    // Calculate key
+    $nbm_user['check_key'] = find_available_check_key();
+
+    // Save key
+    array_push($check_key_list, $nbm_user['check_key']);
+    
+    // Insert new nbm_users
+    array_push
+    (
+      $inserts,
+        array
+        (
+          'user_id' => $user['id'],
+          'check_key' => $nbm_user['check_key'],
+          'enabled' => 'false' // By default if false, set to true with specific functions
+        )
+    );
+
+    mass_inserts(USER_MAIL_NOTIFICATION_TABLE, array('user_id', 'check_key', 'enabled'), $inserts);  
+  }
+  elseif ($count != 0 and !empty($_POST['NBM_Subscription']) && in_array($_POST['NBM_Subscription'], array('true', 'false')))
   {
     $query = '
 UPDATE '.USER_MAIL_NOTIFICATION_TABLE.'
