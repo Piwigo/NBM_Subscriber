@@ -1,0 +1,1 @@
+Povolenie registrovaným používateľom ovládať ich staré zaregistrovanie sa poslaním notifikačného mailu (NBM)
