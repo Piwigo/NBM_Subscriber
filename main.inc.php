@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: NBM Subscriber
-Version: 1.0.4
+Version: 2.2.0
 Description: Permet aux visiteurs inscrits de gérer eux-même leur abonnement à la notification par mail (NBM) - Allows registered visitors to manage their own subscription to the notification by mail (NBM)
 Plugin URI: http://piwigo.org/ext/extension_view.php?eid=397
 Author: Eric
@@ -9,7 +9,6 @@ Author URI: http://www.infernoweb.net
 */
 
 if (!defined('PHPWG_ROOT_PATH')) die('Hacking attempt!');
-if (!defined('NBMS_DIR')) define('NBMS_DIR' , basename(dirname(__FILE__)));
 if (!defined('NBMS_PATH')) define('NBMS_PATH' , PHPWG_PLUGINS_PATH.basename(dirname(__FILE__)).'/');
 
 include_once (NBMS_PATH.'include/functions.inc.php');
@@ -31,7 +30,7 @@ function NBMS_admin_menu($menu)
   array_push($menu,
     array(
       'NAME' => $name,
-      'URL'  => get_admin_plugin_menu_link(NBMS_PATH.'/admin/NBMS_admin.php')
+      'URL' => get_root_url().'admin.php?page=plugin-'.basename(NBMS_PATH)
     )
   );
 
