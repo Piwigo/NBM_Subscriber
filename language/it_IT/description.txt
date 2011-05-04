@@ -1,1 +1,1 @@
-Consente di gestire i visitatori registrati il loro abbonamento proprio per la notifica a mezzo posta (NBM)
+Permette agli utenti registrati di gestire personalmente il loro abbonamento alla notifica via email (NBM)
