@@ -1,19 +1,19 @@
 <?php
 $lang['NBMS_Section'] = 'Benachrichtigung per E-Mail';
-$lang['NBMS_Text'] = 'Abonnieren Sie per E-Mail Benachrichtigung';
+$lang['NBMS_Text'] = 'Wollen Sie bei neuen Bildern eine Benachrichtigung per E-Mail erhalten?';
 $lang['Yes'] = 'Ja';
 $lang['No'] = 'Nein';
 $lang['NBMS_Title'] = 'NBM Subscriber';
 $lang['NBMS_Infos'] = 'Was ist das?';
-/* TODO */$lang['NBMS_Infos_Text'] = 'Piwigo offers two modes of notification of changes in the gallery:<br>
-- The RSS notification, usable by all visitors (even if not registered) in "Notification" menu<br>
-- Notification by mail (NBM), usable only by an administrator or webmaster that is similar to a newsletter
+$lang['NBMS_Infos_Text'] = 'In Piwigo gibt es zwei Möglichkeiten, über Änderungen in der Galerie benachrichtigt zu werden:<br>
+- Die RSS Benachrichtigung ist von allen (auch nicht registrierten) Besuchern verwendbar und befindet sich im Menü unter "Benachrichtigung".<br>
+- "Notification by mail (NBM)", d.h. Benachrichtigung per E-Mail, ähnlich einem Newsletter, kann nur von einem Administrator oder Webmaster verwendet werden.
 <br><br>
-The goal of this plugin is to offer to every <b><u>registered</u></b> visitor to subscribe or unsubscribe themselves from the NBM when he wants. To do this, simply activate the plugin (if you read this message, it means it\'s already done) to see a new option appear in the visitor\'s profile page.
+Das Ziel dieses Plugins ist, dass jeder <b><u>registrierte</u></b> Besucher selbst die Benachrichtigung per E-Mail (NBM) abonnieren oder abbestellen kann. Dafür muss nur das Plugin aktiviert werden (wenn Sie diese Nachricht lesen ist es schon geschehen) und es erscheint eine neue Option in der Profilseite des Besuchers.
 <br><br>
-<b>Important</b> : If a visitor subscribes or unsubscribes from the NBM through it, no email confirmation will be sent from the gallery as is the case when an administrator does this through administration panel. This operation is intended to avoid negative behaviors of some visitors that would lead to a saturation of emails sending from the gallery.
+<b>Wichtig</b>: Wenn ein Besucher die Benachrichtigung (NBM) bestellt oder abbestellt, wird keine Bestätigungs-E-Mail versendet, wie es passiert, wenn ein Administrator das im Administrationsbereich macht. Dieses Verhalten ist beabsichtigt um ein massenhaftes Versenden von E-Mails aus der Galerie durch Besucher zu verhindern.
 <br><br>
-Note : This plugin does not support the visitor information on the availability of this new option. You, Administrator / Webmaster, have to implement an information medium attached. For this, the plugin PWG_Stuffs wil be perfect ;-)';
-/* TODO */$lang['NBMS_Support'] = 'The support on this plugin is only on this Piwigo\'s forum thread:<br>
+Bemerkung: Dieses Plugin zeigt die Verfügbarkeit der neuen Option nicht dem Besucher an. Sie, als Administrator / Webmaster, haben dafür zu sorgen, dass eine Informationsmedium darüber informiert. Das Plugin PWG_Stuffs wäre dafür perfekt. ;-)';
+$lang['NBMS_Support'] = 'Support zu diesem Plugin wird in diesem (englischsprachigen) Forumsthread gegeben:<br>
 <a href="http://piwigo.org/forum/viewtopic.php?id=16020" onclick="window.open(this.href);return false;">English forum - http://piwigo.org/forum/viewtopic.php?id=16020</a>';
 ?>
