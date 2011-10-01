@@ -20,5 +20,12 @@ Plugin Name: NBM Subscriber
 -- 2.2.0 : Compliance with Piwigo 2.2
 -- 2.2.1 : Add of lv_LV translation (thanks to Aivars Baldone)
 -- 2.2.2 : IT translation updated (thx to Rio)
+
+
+**************************************
+***** Plugin history (branch 2.3)*****
+**************************************
+-- 2.3.0 : Compliance with Piwigo 2.3
+           DE translation updated (thx to Unphysicalix)
 */
 ?>
