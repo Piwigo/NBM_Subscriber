@@ -27,5 +27,11 @@ Plugin Name: NBM Subscriber
 **************************************
 -- 2.3.0 : Compliance with Piwigo 2.3
            DE translation updated (thx to Unphysicalix)
+
+**************************************
+***** Plugin history (branch 2.4)*****
+**************************************
+-- 2.4.0 : Compliance with Piwigo 2.4
+           Add ru_RU translation (thanks to marchelly)
 */
 ?>
