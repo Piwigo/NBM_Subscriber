@@ -41,7 +41,7 @@ Plugin Name: NBM Subscriber
 -- 2.4.0 : Compliance with Piwigo 2.4
            Add ru_RU translation (thanks to marchelly)
 2012-06-16:
--- 2.4.1 : Update uk_UA, thanks to : animan, rukhov and quest_tom
-           Update cs_CZ, thanks to : lanius 
+-- 2.4.1 : Add uk_UA, thanks to : animan, rukhov and quest_tom
+           Add cs_CZ, thanks to : lanius 
 */
 ?>
