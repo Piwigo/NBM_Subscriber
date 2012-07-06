@@ -1,0 +1,1 @@
+Umožní registrovaným návštěvníkům nastavit si vlastní odběry v Oznámení mailem (notification by mail - NBM)
