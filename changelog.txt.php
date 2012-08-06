@@ -42,6 +42,11 @@ Plugin Name: NBM Subscriber
            Add ru_RU translation (thanks to marchelly)
 2012-06-16:
 -- 2.4.1 : Add uk_UA, thanks to : animan, rukhov and quest_tom
-           Add cs_CZ, thanks to : lanius 
+           Add cs_CZ, thanks to : lanius
+
+2012-08-06:
+-- 2.4.2 : Update cs_CZ, thanks to : sichr
+           Update el_GR, thanks to : bas_alba
+           Add pl_PL, thanks to : kuba
 */
 ?>
