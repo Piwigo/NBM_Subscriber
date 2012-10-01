@@ -1,0 +1,1 @@
+Giver registrerede besøgende mulighed for at håndtere deres egne tilmeldinger til notifikation pr. mail (NBM).
