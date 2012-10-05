@@ -48,5 +48,8 @@ Plugin Name: NBM Subscriber
 -- 2.4.2 : Update cs_CZ, thanks to : sichr
            Update el_GR, thanks to : bas_alba
            Add pl_PL, thanks to : kuba
+
+2012-10-05:
+-- 2.4.3 : Add da_DK, thanks to : Kaare
 */
 ?>
