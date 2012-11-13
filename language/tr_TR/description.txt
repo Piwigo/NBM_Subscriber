@@ -1,0 +1,1 @@
+Kayıtlı ziyaretçilere posta ile gönderilen bildirimleri (NBM) yönetmelerine olanak sağlar.
