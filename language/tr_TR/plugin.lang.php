@@ -28,4 +28,11 @@ $lang['No'] = 'Hayır';
 $lang['Yes'] = 'Evet';
 $lang['NBMS_Support'] = 'Bu eklenti için destek sadece Piwigo forumdadır:<br>
 <a href="http://piwigo.org/forum/viewtopic.php?id=16020" onclick="window.open(this.href);return false;">English forum - http://piwigo.org/forum/viewtopic.php?id=16020</a>';
+$lang['NBMS_Infos_Text'] = 'Piwigo, galerideki değişik bildirimi için iki mod önermektedir:<br>
+- Bildirim menüsündeki RSS bildirimi, her ziyaretçi tarafından kullanılabilir (kayıtlı olmasalar dahi)<br>
+- Bültenlere benzer posta ile bildirim (Notification by mail:NBM), sadece yönetici yada webmaster tarafından kullanılabilir<br><br>
+Bu eklentinin en büyük getirisi, <b><u>kayıtlı</u></b> kullanıcıların istediklerinde bildirimlere kolayca abone olabilmeleri veya abonelikten çıkmalarıdır. Bunu yapmak için basitçe eklentiyi etkinleştirin (eğer bu mesajı okuyorsanız bu zaten yapılmış demektir). Ziyaretçi profili sayfasında yeni bir seçenek belirecektir.<br><br>
+<b>Önemli</b> : Yönetici panelinden yapıldığında olacağı gibi, eğer bir ziyaretçi NBM üzerinden abone olur veya abonelikten çıkarsa onaylama için eposta gönderimi yapılmaz. Bu seçenek, bazı kötü düşünceli ziyaretçilerin galeri üzerinden çok fazla e-posta gönderisi oluşturmasını engellemek için düşünülmüştür.
+<br><br>
+Not : Bu eklenti ziyaretçi bilgilerini desteklemez. Siz, Yönetici / Webmaster bilgi ortamının iliştirilmesi için geliştirme yapmalısınız. Bunun için PWG_Stuffs mükemmel olacaktır ;-)';
 ?>
