@@ -23,4 +23,5 @@
 $lang['NBMS_Section'] = 'Powiadomienia przez e-mail';
 $lang['No'] = 'Nie';
 $lang['Yes'] = 'Tak';
+$lang['NBMS_Infos'] = 'Co to jest?';
 ?>
