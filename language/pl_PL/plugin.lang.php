@@ -26,4 +26,5 @@ $lang['Yes'] = 'Tak';
 $lang['NBMS_Infos'] = 'Co to jest?';
 $lang['NBMS_Support'] = 'Wsparcie dla tej wtyczki jest udzielane wyłącznie w tym wątku na forum Piwigo:<br />
 <a href="http://piwigo.org/forum/viewtopic.php?id=16020" onclick="window.open(this.href);return false;">Forum anglojęzyczne - http://piwigo.org/forum/viewtopic.php?id=16020</a>';
+$lang['NBMS_Text'] = 'Subskrybuj powiadomienia na mail';
 ?>

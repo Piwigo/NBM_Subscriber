@@ -1,0 +1,1 @@
+Pozwól zarejestrowanym użytkownikom zarządzać ich subskrypcjami powiadomień mailowych (NBM).
