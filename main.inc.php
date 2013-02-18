@@ -130,7 +130,7 @@ function NBMS_prefilter($content, &$smarty)
   
   $search = '<p class="bottomButtons">';
       
-  $addon = '{if $ALLOW_USER_CUSTOMIZATION}
+  $addon = '
   <fieldset>
     <legend>{\'NBMS_Section\'|@translate}</legend>
       <ul>
@@ -140,7 +140,7 @@ function NBMS_prefilter($content, &$smarty)
         </li>
       </ul>
   </fieldset>
-{/if}';
+';
   
   $replacement = $addon.$search;
 

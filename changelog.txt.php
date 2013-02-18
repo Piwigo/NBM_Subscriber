@@ -51,5 +51,11 @@ Plugin Name: NBM Subscriber
 
 2012-10-05:
 -- 2.4.3 : Add da_DK, thanks to : Kaare
+
+2013-02-18:
+-- 2.4.4 : Bug fixed - Allow to display NBM Subscriber field in profile page even if "Allow user customization" is not set in Piwigo's options
+           Add tr_TR, thanks to : LazBoy
+           Update pl_PL, thanks to : K.S.
+           
 */
 ?>
