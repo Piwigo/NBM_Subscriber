@@ -26,4 +26,6 @@ $lang['NBMS_Section'] = 'E-mail értesítés';
 $lang['NBMS_Text'] = 'Feliratkozás az e-mail értesítésre';
 $lang['No'] = 'Nem';
 $lang['Yes'] = 'Igen';
+$lang['NBMS_Support'] = 'A bővítmény hivatalos támogatása a következő fórum témában:<br>
+<a href="http://piwigo.org/forum/viewtopic.php?id=16020" onclick="window.open(this.href);return false;">Angol fórum - http://piwigo.org/forum/viewtopic.php?id=16020</a>';
 ?>
