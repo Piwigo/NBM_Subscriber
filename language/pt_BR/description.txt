@@ -1,0 +1,1 @@
+Permite que aos visitantes cadastrados gerenciar sua própria assinatura de notificação por email (NBM)
