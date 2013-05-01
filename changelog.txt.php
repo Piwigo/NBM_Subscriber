@@ -60,5 +60,10 @@ Plugin Name: NBM Subscriber
 2013-03-03:
 -- 2.5.0 : Compliance with Piwigo 2.5
            Add hu_HU, thanks to : samli
+
+2013-05-01:
+-- 2.5.1 : Update hu_HU, thanks to : samli
+           Update pl_PL, thanks to : K.S.
+           Add pt_BR, thanks to : flaviove
 */
 ?>
