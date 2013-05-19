@@ -1,1 +1,1 @@
-permitir aos visitantes registados gerir a sua própria subscrição para notificação 
+Permitir aos visitantes registados gerir a sua própria subscrição de notificação 
