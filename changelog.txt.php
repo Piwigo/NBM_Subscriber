@@ -65,5 +65,8 @@ Plugin Name: NBM Subscriber
 -- 2.5.1 : Update hu_HU, thanks to : samli
            Update pl_PL, thanks to : K.S.
            Add pt_BR, thanks to : flaviove
+
+2013-05-25:
+-- 2.5.2 : Add pt_PT, thanks to : ANO
 */
 ?>
