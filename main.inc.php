@@ -52,20 +52,20 @@ SELECT *
 FROM '.USER_MAIL_NOTIFICATION_TABLE.'
 WHERE user_id = \''.$user['id'].'\'
 ';
-  
+
   $count = pwg_db_num_rows(pwg_query($query));
-  
+
   if ($count == 0)
   {
     $inserts = array();
     $check_key_list = array();
-    
+
     // Calculate key
     $nbm_user['check_key'] = find_available_check_key();
 
     // Save key
     array_push($check_key_list, $nbm_user['check_key']);
-    
+
     // Insert new nbm_users
     array_push
     (
@@ -74,11 +74,11 @@ WHERE user_id = \''.$user['id'].'\'
         (
           'user_id' => $user['id'],
           'check_key' => $nbm_user['check_key'],
-          'enabled' => 'false' // By default if false, set to true with specific functions
+          'enabled' => $_POST['NBM_Subscription']
         )
     );
 
-    mass_inserts(USER_MAIL_NOTIFICATION_TABLE, array('user_id', 'check_key', 'enabled'), $inserts);  
+    mass_inserts(USER_MAIL_NOTIFICATION_TABLE, array('user_id', 'check_key', 'enabled'), $inserts);
   }
   elseif ($count != 0 and !empty($_POST['NBM_Subscription']) && in_array($_POST['NBM_Subscription'], array('true', 'false')))
   {
@@ -107,16 +107,22 @@ function NBMS_Load_Profile()
   $data = pwg_db_fetch_assoc(pwg_query($query));
   
   $values = $data['enabled'];
+  
+  if (is_null($values))
+    $values = 'false';
 
   $template->assign('radio_options',
     array(
       'true' => l10n('Yes'),
-      'false'=> l10n('No')));
+      'false'=> l10n('No')
+    )
+  );
 
   $template->assign(
     array(
       'NBMS'=>$values
-    ));
+    )
+  );
       
   $template->set_prefilter('profile_content', 'NBMS_prefilter');
 }

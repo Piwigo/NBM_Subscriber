@@ -68,5 +68,8 @@ Plugin Name: NBM Subscriber
 
 2013-05-25:
 -- 2.5.2 : Add pt_PT, thanks to : ANO
+
+2013-06-03:
+-- 2.5.3 : Bug fixed - On new user registration, user should submit his NBM choice twice in his profile page for it to be considered
 */
 ?>
