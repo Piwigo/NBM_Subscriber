@@ -1,8 +1,6 @@
 <?php
 $lang['NBMS_Section'] = 'Notification by mail';
 $lang['NBMS_Text'] = 'Subscribe to notification by mail';
-$lang['Yes'] = 'Yes';
-$lang['No'] = 'No';
 $lang['NBMS_Title'] = 'NBM Subscriber';
 $lang['NBMS_Infos'] = 'What is it?';
 $lang['NBMS_Infos_Text'] = 'Piwigo offers two modes of notification of changes in the gallery:<br>
