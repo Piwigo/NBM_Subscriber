@@ -28,4 +28,13 @@ $lang['No'] = 'Nem';
 $lang['Yes'] = 'Igen';
 $lang['NBMS_Support'] = 'A bővítmény hivatalos támogatása a következő fórum témában:<br>
 <a href="http://piwigo.org/forum/viewtopic.php?id=16020" onclick="window.open(this.href);return false;">Angol fórum - http://piwigo.org/forum/viewtopic.php?id=16020</a>';
+$lang['NBMS_Infos_Text'] = 'A Piwigo rendszere két féle értesítési módot kínál a galériában történő változásokról:<br>
+- az "Értesítés" menüben lévő RSS értesítő, melyet minden látogató használhat (még a nem regisztráltak is)<br>
+- levélértesítő (NBM), amit az adminisztrátorok és a webmesterek használhatnak; hasonló a hírlevélhez
+<br><br>
+A célunk ezzel a bővítménnyel az, hogy minden <b><u>regisztrált</u></b> látogatónak lehetősége legyen feliratkozni, illetve leiratkozni az NBM szolgáltatásról amikor csak akar. Ehhez csak aktiválni kell a bővítményt (ha ezt leírást olvasod, akkor ez már meg is történt), hogy egy új opció jelenjen meg a látogató profilbeállításai között.
+<br><br>
+<br>Fontos</b>: Amennyiben a látogató iratkozik fel, illetve iratkozik le az NBM-en keresztül, úgy az oldal nem küld megerősítő e-mailt úgy, mintha ezt az adminisztrátor tenné az adminisztrációs panelen keresztül. Azért jött létre ez a megoldás, hogy elkerüljük a felhasználók esetleges negatív hozzáállásából adódó tömeges e-mail forgalmat.
+<br><br>
+Megjegyzés: Ez a bővítmény önmagában nem tájékoztatja a látogatókat az új opció meglétéről. Neked, mint Adminisztrátor/Webmester kell gondoskodnod ennek az információnak a feltüntetéséről. Erre kiválóan alkalmas a \'PWG_Stuffs\'.';
 ?>
