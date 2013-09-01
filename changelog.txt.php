@@ -71,5 +71,10 @@ Plugin Name: NBM Subscriber
 
 2013-06-03:
 -- 2.5.3 : Bug fixed - On new user registration, user should submit his NBM choice twice in his profile page for it to be considered
+
+2013-09-01:
+-- 2.5.4 : Translation keys fixed
+           Add nl_NL, thanks to : Kees Hessels
+           Update hu_HU, thanks to : mionix
 */
 ?>
