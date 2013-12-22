@@ -76,5 +76,8 @@ Plugin Name: NBM Subscriber
 -- 2.5.4 : Translation keys fixed
            Add nl_NL, thanks to : Kees Hessels
            Update hu_HU, thanks to : mionix
+
+2013-12-22:
+-- 2.6.0 : Compatibility chacked with Piwigo 2.6
 */
 ?>
