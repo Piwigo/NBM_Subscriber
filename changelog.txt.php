@@ -40,44 +40,36 @@ Plugin Name: NBM Subscriber
 2012-04-19:
 -- 2.4.0 : Compliance with Piwigo 2.4
            Add ru_RU translation (thanks to marchelly)
-2012-06-16:
 -- 2.4.1 : Add uk_UA, thanks to : animan, rukhov and quest_tom
            Add cs_CZ, thanks to : lanius
 
-2012-08-06:
 -- 2.4.2 : Update cs_CZ, thanks to : sichr
            Update el_GR, thanks to : bas_alba
            Add pl_PL, thanks to : kuba
 
-2012-10-05:
 -- 2.4.3 : Add da_DK, thanks to : Kaare
 
-2013-02-18:
 -- 2.4.4 : Bug fixed - Allow to display NBM Subscriber field in profile page even if "Allow user customization" is not set in Piwigo's options
            Add tr_TR, thanks to : LazBoy
            Update pl_PL, thanks to : K.S.
 
-2013-03-03:
 -- 2.5.0 : Compliance with Piwigo 2.5
            Add hu_HU, thanks to : samli
 
-2013-05-01:
 -- 2.5.1 : Update hu_HU, thanks to : samli
            Update pl_PL, thanks to : K.S.
            Add pt_BR, thanks to : flaviove
 
-2013-05-25:
 -- 2.5.2 : Add pt_PT, thanks to : ANO
 
-2013-06-03:
 -- 2.5.3 : Bug fixed - On new user registration, user should submit his NBM choice twice in his profile page for it to be considered
 
-2013-09-01:
 -- 2.5.4 : Translation keys fixed
            Add nl_NL, thanks to : Kees Hessels
            Update hu_HU, thanks to : mionix
 
-2013-12-22:
 -- 2.6.0 : Compatibility chacked with Piwigo 2.6
+
+-- 2.6.1 : Add zh_CN, thanks to : dennisyan
 */
 ?>
