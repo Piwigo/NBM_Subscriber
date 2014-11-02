@@ -73,5 +73,7 @@ Plugin Name: NBM Subscriber
 -- 2.6.1 : Add zh_CN, thanks to : dennisyan
 
 -- 2.7.0 : Compatibility with Piwigo 2.7
+
+-- 2.7.1 : Add nb_NO, thanks to : paulen
 */
 ?>
