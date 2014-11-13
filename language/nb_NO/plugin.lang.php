@@ -21,15 +21,15 @@
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
 $lang['NBMS_Infos'] = 'Hva er det?';
-$lang['NBMS_Infos_Text'] = 'Piwigo tilbyr to moduser av melding om endringer i galleriet:<br>
+$lang['NBMS_Infos_Text'] = 'Piwigo tilbyr to metoder av melding om endringer i galleriet:<br>
 - RSS-varsling, kan brukes av alle besøkende (selv om en ikke er registrert) i "Varslings" -menyen<br>
-- Varsling via e-post (NBM), kan kun brukes av en administrator eller webmaster. Denne  ligner på et nyhetsbrev
+- Varsling via e-post (NBM), kan kun brukes av en administrator eller webmaster. Dette  ligner på et nyhetsbrev
 <br><br>
-Målet med dette programtillegget er å tilby alle <b><u> registrerte </u></b> besøkende til å abonnere på NBM når han ønsker. For å gjøre dette, er det bare å aktivere programtillegget (hvis du leser denne meldingen, betyr det at det allerede er gjort) for å se et nytt alternativ vise i profilen på den besøkendes side.
+Målet med dette programtillegget er å tilby alle <b><u> registrerte </u></b> besøkende, å abonnere på NBM når de måtte  ønske det. For å gjøre dette, er det bare å aktivere programtillegget (hvis du leser denne meldingen, betyr det at det allerede er gjort) for å se et nytt alternativ bli vist i profilen til den besøkendes profilside.
 <br><br>
 <B>Viktig</b>: Hvis en besøkende abonnerer eller stopper abonnemenet fra NBM, vil ingen e-post bekreftelse bli sendt fra galleriet som er tilfellet når en administrator gjør dette gjennom administrasjonspanel. Denne operasjonen er ment for å unngå negativ atferd fra noen besøkende som igjen ville føre til en opphoping av e-poster sendt fra galleriet.
 <br><br>
-Merk: Dette tillegget støtter ikke den besøkendes informasjon om tilgjengeligheten av dette nye alternativet. Du, Administrator / Webmaster, må gjennomføre et informasjonsmedium vedlagt. For dette, vil programtillegget PWG_Stuffs være perfekt;-)';
+Merk: Dette programtillegget støtter ikke at den besøkende får informasjon om tilgjengeligheten av dette nye alternativet. Du, Administrator / Webmaster, må selv implmentere en opplysningsmetode. For dette, vil programtillegget PWG_Stuffs være perfekt;-)';
 $lang['NBMS_Section'] = 'Varsling via e-post';
 $lang['NBMS_Support'] = 'Støtten til dette programtillegget finnes kun på Piwigo\'s forum tråder:<br><a href="http://piwigo.org/forum/viewtopic.php?id=16020" onclick="window.open(this.href);return false;">English forum - http://piwigo.org/forum/viewtopic.php?id=16020</a>';
 $lang['NBMS_Text'] = 'Abboner på meldinger via e-post';
