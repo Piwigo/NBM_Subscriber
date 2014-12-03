@@ -77,5 +77,7 @@ Plugin Name: NBM Subscriber
 -- 2.7.1 : Add nb_NO, thanks to : paulen
 
 -- 2.7.2 : Update de_DE, thanks to bigant
+
+-- 2.7.3 : Commit error - No changes for this version
 */
 ?>
